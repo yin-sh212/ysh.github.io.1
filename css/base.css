@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+input[type="radio"] {
+    display: none; /* 隐藏单选按钮 */
+}
+
+/* 设置默认样式 */
+body{
+    font-family: "Fira Code Web", Consolas, Helvetica, "微软雅黑", "宋体";
+    font-weight: 400;
+    font-display: swap;
+    line-height: 1.6;
+    color: rgb(114, 73, 22);
+    background-color: rgba(250, 235, 215,0.3);
+    flex-direction: column;
+}
