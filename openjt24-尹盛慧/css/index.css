@@ -1,0 +1,179 @@
+html{
+    scroll-snap-type: y proximity;
+}
+
+body{
+    scroll-snap-type:y proximity;
+}
+/* header */
+/* 头部区域 */
+.head{
+    scroll-snap-align: start;
+}
+.inner{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 0px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition:  0.4s;
+    top: 0;
+    background-color:white;
+    position: sticky;   
+    z-index: 1000;
+}
+
+.logo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 30px;
+}
+
+.navigation a{
+    display: flex;
+    width: 90px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 73, 22);
+    text-decoration: none;
+}
+
+.navigation a i{
+    margin-right: 10px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+
+.header-container{
+    display: flex;
+    width: 100vw;
+    height: 260px;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-color: antiquewhite;
+}
+ /*头部介绍 */ 
+.heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+    align-items: center;
+}
+
+.header-container h1{
+    display: block;
+    height: 88px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.header-container p{
+    display: block;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* main */
+.main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 图文介绍区 */
+.graph{
+    display: flex;
+    flex-direction: column;
+    padding: 60px  40px;
+}
+
+.graph h1{
+    scroll-snap-align: start;
+}
+.graph1 img{
+    width: 30%;
+    height: auto;
+}
+.graph1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 40px;
+
+}
+.graph1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.graph1 p{
+    margin: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+
+.graph2 img{
+    width: 50%;
+    height: auto;
+}
+.graph2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 40px;
+
+}
+.graph2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.graph2 p{
+    margin: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.graph p{
+    margin: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.footer{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
